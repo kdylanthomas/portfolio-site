@@ -1,0 +1,32 @@
+body {
+	background-color: #3ac390;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	padding: 5% 0;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+.name {
+	color: rgb(230, 8, 56);
+}
+
+.text {
+	padding-bottom: 2%;
+}
+
+a, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(197,238,214);
+	text-decoration: none;
+}
+
+.popover-content {
+    color: #3ac390;
+}
