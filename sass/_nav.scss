@@ -1,0 +1,28 @@
+.custom-nav {
+	height: 5em;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	background-color: rgb(197,238,214);
+	.custom-nav-header {
+		padding: 10px 0;
+		a {
+			color: rgb(230, 8, 56);
+		}
+	}
+	.navbar-name {
+		margin: auto;
+		text-decoration: none;
+		font-size: 2em;
+	}
+	.custom-nav-links {
+		padding: 10px 0;
+		font-size: 1.25em;
+		link-decoration: none;
+		li a:hover {
+			color: rgb(230, 8, 56);
+		}
+	}
+	.custom-nav-collapse {
+		background-color: rgb(197,238,214);
+	}
+}
