@@ -1,2 +1,33 @@
 @import 'nav';
 @import 'header';
+@import 'about';
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
+
+section {
+	text-align: center;
+	padding: 2% 0;
+	border-bottom: 2px solid #DBDBDB;
+}
+
+.section-header {
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(230, 8, 56);
+	padding-bottom: 3%;
+}
+
+.section-content {
+	padding-bottom: 1%;
+	color: #4C4C4C;
+	line-height: 150%;
+	font-size: 1.25em;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.logo-row {
+	padding: 2% 0;
+}
+// for full screen
+.tech-logo {
+	padding: 5%;
+	max-height: 125px;
+}

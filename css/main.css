@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
 .custom-nav {
   height: 5em;
   font-family: 'Quicksand', sans-serif;
@@ -33,3 +34,30 @@ header {
   header .profile-img {
     max-height: 250px;
     border-radius: 50%; }
+
+#about {
+  text-align: center; }
+
+section {
+  text-align: center;
+  padding: 2% 0;
+  border-bottom: 2px solid #DBDBDB; }
+
+.section-header {
+  font-family: 'Quicksand', sans-serif;
+  color: #e60838;
+  padding-bottom: 3%; }
+
+.section-content {
+  padding-bottom: 1%;
+  color: #4C4C4C;
+  line-height: 150%;
+  font-size: 1.25em;
+  font-family: 'Oxygen', sans-serif; }
+
+.logo-row {
+  padding: 2% 0; }
+
+.tech-logo {
+  padding: 5%;
+  max-height: 125px; }
