@@ -1,6 +1,7 @@
 @import 'nav';
 @import 'header';
 @import 'about';
+@import 'contact';
 @import url(https://fonts.googleapis.com/css?family=Oxygen:300);
 
 section {
@@ -26,7 +27,7 @@ section {
 .logo-row {
 	padding: 2% 0;
 }
-// for full screen
+
 .tech-logo {
 	padding: 5%;
 	max-height: 125px;

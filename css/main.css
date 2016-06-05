@@ -38,6 +38,22 @@ header {
 #about {
   text-align: center; }
 
+#contact {
+  background-color: #3ac390; }
+  #contact img {
+    max-height: 150px;
+    border-radius: 50%; }
+  #contact .contact-icons {
+    padding-top: 2%; }
+    #contact .contact-icons a, #contact .contact-icons a:visited {
+      color: #fff;
+      text-decoration: none; }
+    #contact .contact-icons a:hover {
+      color: #c5eed6;
+      text-decoration: none; }
+    #contact .contact-icons .popover-content {
+      color: #3ac390; }
+
 section {
   text-align: center;
   padding: 2% 0;
