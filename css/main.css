@@ -1,28 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:300);
-.custom-nav {
+#custom-nav {
   height: 5em;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   background-color: #c5eed6; }
-  .custom-nav .custom-nav-header {
+  #custom-nav .custom-nav-header {
     padding: 10px 0; }
-    .custom-nav .custom-nav-header a {
+    #custom-nav .custom-nav-header a {
       color: #e60838; }
-  .custom-nav .navbar-name {
+  #custom-nav .navbar-name {
     margin: auto;
     text-decoration: none;
     font-size: 2em; }
-  .custom-nav .custom-nav-links {
+  #custom-nav .custom-nav-links {
     padding: 10px 0;
     font-size: 1.25em;
     link-decoration: none; }
-    .custom-nav .custom-nav-links li a:hover {
+    #custom-nav .custom-nav-links li a:hover {
       color: #e60838; }
-  .custom-nav .custom-nav-collapse {
+  #custom-nav .custom-nav-collapse {
     background-color: #c5eed6; }
 
 header {
-  padding: 8em 0;
+  padding: 8em 0 4em;
   background-color: #3ac390;
   color: #fff;
   font-family: 'Quicksand', sans-serif; }
@@ -34,9 +34,6 @@ header {
   header .profile-img {
     max-height: 250px;
     border-radius: 50%; }
-
-#about {
-  text-align: center; }
 
 #contact {
   background-color: #3ac390; }
@@ -53,6 +50,9 @@ header {
       text-decoration: none; }
     #contact .contact-icons .popover-content {
       color: #3ac390; }
+
+body {
+  position: relative; }
 
 section {
   text-align: center;
