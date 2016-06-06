@@ -1,8 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
 @import 'nav';
 @import 'header';
+@import 'portfolio';
 @import 'contact';
 @import 'footer';
-@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
 
 body {
 	position: relative;
@@ -37,6 +38,3 @@ section {
 	max-height: 125px;
 }
 
-.portfolio-icon {
-	max-width: 100%;
-}

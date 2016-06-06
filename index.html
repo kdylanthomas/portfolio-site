@@ -147,31 +147,26 @@
 	</section>
 
 	<!-- portfolio -->
-	<!-- Bonnawho -->
-	<!-- Full stack capstone -->
-	<!-- data vis thing -->
-	<!-- robot battledome -->
-	<!-- bangazon? -->
 	<section id="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
 					<h2 class="section-header">My Portfolio</h2>
+					<h4 class="under-construction">under construction...</h4>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<a href="#bonnawho-modal" class="portfolio-link" data-toggle="modal">
-	<!-- 					<div class="caption">
+					<a href="#bonnawho-modal" class="portfolio-link" data-toggle="modal">		<div class="caption">
 	            <div class="caption-content">
-	              <h6>Bonnawho?</h6>
-	              <hr>
-	              <h7>Front End Capstone</h7>
+	              <h4>Bonnawho?</h4>
+	              <h5>Front End Capstone</h5>
 	            </div>
-	          </div> -->
+	          </div>
 						<img class="portfolio-icon" src="img/app-screenshots/bonnawho-login.png" alt="Bonnawho?">
 					</a>
 				</div>
+				<!-- TODO: add back-end capstone, data vis project -->
 			</div>
 		</div>
 	</section
@@ -181,33 +176,67 @@
 		<h2 class="section-header">Contact Me</h2>
 		<h3>Interested in my work? Let's get in touch!</h3>
 		<img class="profile-img center-block" src="img/footer_profile.png" alt="this is not my face">
-		<div class="center-block mail">
-			<i class="fa fa-envelope fa-4x"></i>
-		</div>
 		<div class="center-block">
+			<i class="fa fa-paper-plane mail fa-2x" aria-hidden="true"></i>
 			<h4>kdylanthomas@gmail.com</h4>
 		</div>
 
 		<div class="row">
 			<div class="contact-icons col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
 				<a href="http://www.github.com/kdylanthomas" target="_blank">
-					<i class="fa fa-github icon-link fa-3x"></i>
+					<i class="fa fa-github icon-link fa-2x"></i>
 				</a>
 				<a href="http://www.linkedin.com/in/kdylanthomas" target="_blank">
-					<i class="fa fa-linkedin-square fa-3x"></i>
+					<i class="fa fa-linkedin-square fa-2x"></i>
 				</a>
 				<a href="https://twitter.com/kdylanthomas" target="_blank">
-					<i class="fa fa-twitter fa-3x"></i>
+					<i class="fa fa-twitter fa-2x"></i>
 				</a>
 		</div>
 	</section>
 
 	<footer id="footer">
-		<h5>Dylan Thomas</h5>
 		<div>
 			<a class="footer" data-scroll href="#page-top">Back to top</a>
 		</div>
 	</footer>
+
+	<!-- **************** -->
+	<!-- PORTFOLIO MODALS -->
+	<!-- **************** -->
+
+	<div class="portfolio-modal modal fade custom-modal" id="bonnawho-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h1>Bonnawho?</h1>
+              <h4>Front-end capstone</h4>
+              <img src="img/app-screenshots/bonnawho-landing.png" class="img-responsive img-centered app-screenshot" alt="Bonnawho landing page">
+              <img src="img/app-screenshots/bonnawho-list-view-2.png" class="img-responsive img-centered app-screenshot" alt="Bonnawho list view">
+              <p>Bonnawho? is your pocket guide to the Bonnaroo 2016 lineup. Through the app, users can view the lineup through convenient filters and save artists to listen to later. The app integrates with the Spotify API to let users learn more about their saved artists, including access to the artist’s recorded albums and top songs. Users can rate and comment on their saved artists, and the app uses that information to build a suggested schedule for the user.</p>
+             	<div class="view-app">
+								<i class="fa fa-github icon-link fa-2x"></i>
+								<a href="http://github.com/kdylanthomas/bonnawho">View the code on GitHub</a>
+								<i class="fa fa-laptop icon-link fa-2x" aria-hidden="true"></i>
+								<a href="http://kdylanthomas.github.io/bonnawho">Demo</a>
+							</div>
+							<div class="button-div">
+            		<button type="button" class="btn btn-default exit" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            	</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
