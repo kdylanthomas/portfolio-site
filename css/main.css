@@ -56,13 +56,14 @@ header {
   padding-bottom: 2%; }
 
 #portfolio .portfolio-icon {
-  max-width: 100%; }
+  max-width: 100%;
+  padding-bottom: 1%; }
 
 #portfolio .portfolio-link .caption {
   background-color: rgba(30, 30, 30, 0.7);
   position: absolute;
   width: 92%;
-  height: 100%;
+  height: 98%;
   opacity: 0;
   padding-top: 30%; }
   #portfolio .portfolio-link .caption .caption-content {
