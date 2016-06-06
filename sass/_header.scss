@@ -3,9 +3,13 @@ header {
 	background-color: #3ac390;
 	color: #fff;
 	font-family: 'Quicksand', sans-serif;
-	h2, h3 {
+	text-align: center;
+	h2, h3, i {
 		padding-top: 2%;
-		text-align: center;
+	}
+	a, a:hover, a:visited {
+		color: #fff;
+		text-decoration: none;
 	}
 	.name {
 		color: rgb(230, 8, 56);
@@ -13,6 +17,20 @@ header {
 	.profile-img {
 		max-height: 250px;
 		border-radius: 50%;
+	}
+	.contact-icons {
+		padding-top: 2%;
+		text-align: center;
+		a, a:visited {
+			padding: 5%;
+			color: #fff;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: rgb(197,238,214);
+			text-decoration: none;
+		}
 	}
 }
 

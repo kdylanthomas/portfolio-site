@@ -26,15 +26,28 @@ header {
   padding: 8em 0 4em;
   background-color: #3ac390;
   color: #fff;
-  font-family: 'Quicksand', sans-serif; }
-  header h2, header h3 {
-    padding-top: 2%;
-    text-align: center; }
+  font-family: 'Quicksand', sans-serif;
+  text-align: center; }
+  header h2, header h3, header i {
+    padding-top: 2%; }
+  header a, header a:hover, header a:visited {
+    color: #fff;
+    text-decoration: none; }
   header .name {
     color: #e60838; }
   header .profile-img {
     max-height: 250px;
     border-radius: 50%; }
+  header .contact-icons {
+    padding-top: 2%;
+    text-align: center; }
+    header .contact-icons a, header .contact-icons a:visited {
+      padding: 5%;
+      color: #fff;
+      text-decoration: none; }
+    header .contact-icons a:hover {
+      color: #c5eed6;
+      text-decoration: none; }
 
 #portfolio .under-construction {
   font-family: 'Quicksand', sans-serif;
@@ -140,8 +153,6 @@ header {
   #contact .contact-icons a:hover {
     color: #c5eed6;
     text-decoration: none; }
-  #contact .contact-icons .popover-content {
-    color: #3ac390; }
 
 #footer {
   background-color: #c5eed6;
@@ -166,7 +177,7 @@ section {
 .section-header {
   font-family: 'Quicksand', sans-serif;
   color: #e60838;
-  padding-bottom: 3%; }
+  padding-bottom: 2%; }
 
 .section-content {
   padding-bottom: 1%;
