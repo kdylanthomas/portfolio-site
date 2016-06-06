@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:300);
 #custom-nav {
+  transition: all 0.8s;
   height: 5em;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
@@ -37,12 +38,20 @@ header {
 
 #contact {
   background-color: #3ac390; }
+  #contact h3, #contact h4 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 2%; }
   #contact img {
     max-height: 150px;
     border-radius: 50%; }
+  #contact .mail {
+    padding-top: 2%;
+    color: #c5eed6; }
   #contact .contact-icons {
     padding-top: 2%; }
     #contact .contact-icons a, #contact .contact-icons a:visited {
+      padding: 5%;
       color: #fff;
       text-decoration: none; }
     #contact .contact-icons a:hover {
@@ -50,6 +59,20 @@ header {
       text-decoration: none; }
     #contact .contact-icons .popover-content {
       color: #3ac390; }
+
+#footer {
+  background-color: #c5eed6;
+  padding: 2% 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif; }
+  #footer a, #footer a:visited {
+    color: #4C4C4C;
+    text-decoration: none; }
+  #footer a:hover {
+    color: #3ac390;
+    text-decoration: none; }
+  #footer h5 {
+    color: #e60838; }
 
 body {
   position: relative; }
