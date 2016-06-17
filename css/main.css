@@ -178,7 +178,8 @@ section {
 .section-header {
   font-family: 'Quicksand', sans-serif;
   color: #e60838;
-  padding-bottom: 2%; }
+  padding-bottom: 2%;
+  cursor: pointer; }
 
 .section-content {
   padding-bottom: 1%;
